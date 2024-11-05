@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json.schemastore.org/aiproj-1.3.json",
+    "Version": "1.3",
+    "ProjectName": "minimal-django-app-venv2",
+    "ProgrammingLanguages": [
+        "Python"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "UseSastRules": false,
+    "UseCustomPmRules": false,
+    "UseSecurityPolicies": false,
+    "SkipGitIgnoreFiles": false,
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "PythonSettings": {
+        "UsePublicAnalysisMethod": false,
+        "DownloadDependencies": false,
+        "DependenciesPath": "test_env2"
+    },
+    "MailingProjectSettings": {
+        "Enabled": false,
+        "MailProfileName": null,
+        "EmailRecipients": []
+    }
+}
